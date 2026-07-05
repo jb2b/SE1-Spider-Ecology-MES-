@@ -1,4 +1,5 @@
-# Spider Ecology 7.0 MES Creatures
+# Spider Ecology 7.0 MES Creatures for Space Engineers
+Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3726494928
 
 This is the MES / Planet Creature Spawner variant of Spider Ecology.
 
