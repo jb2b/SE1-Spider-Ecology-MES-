@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-EarthLike-Wolves-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [EarthLike day wolves, no spiders.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:Wolf]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:2]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:220]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:EarthLike]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-EarthLike-Wolves-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [EarthLike night wolf pack.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:Wolf]
+            [MinCreatureCount:2]
+            [MaxCreatureCount:4]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:240]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:EarthLike]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Alien-Hive-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Alien full hive day: all colors, brown/black pressure.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpider]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBlack]
+            [MinCreatureCount:2]
+            [MaxCreatureCount:5]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:260]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:Alien]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Alien-Hive-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Alien night hive: brown/black dominate.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpider]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBlack]
+            [CreatureIds:SpaceSpiderBlack]
+            [CreatureIds:SpaceSpiderBlack]
+            [MinCreatureCount:2]
+            [MaxCreatureCount:5]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:260]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:Alien]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>12.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Mars-Infected-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Mars infected desert day.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpider]
+            [CreatureIds:SpaceSpider]
+            [CreatureIds:SpaceSpiderBrown]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:2]
+            [MinCreatureDistance:120]
+            [MaxCreatureDistance:240]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:Mars]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Mars-Infected-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Mars infected desert night, black stalkers possible.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpider]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBlack]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:3]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:240]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:100]
+            [PlanetWhitelist:Mars]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>6.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Pertam-Predators-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Pertam brown desert predators.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBrown]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:2]
+            [MinCreatureDistance:120]
+            [MaxCreatureDistance:260]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:85]
+            [PlanetWhitelist:Pertam]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Pertam-Predators-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Pertam night brown/black predators.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBlack]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:3]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:260]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:90]
+            [PlanetWhitelist:Pertam]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Titan-Scouts-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Titan green scout infestation.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpiderGreen]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:2]
+            [MinCreatureDistance:100]
+            [MaxCreatureDistance:220]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:70]
+            [PlanetWhitelist:Titan]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Titan-Scouts-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Titan night scouts with rare worker.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpiderGreen]
+            [CreatureIds:SpaceSpider]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:2]
+            [MinCreatureDistance:90]
+            [MaxCreatureDistance:220]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:75]
+            [PlanetWhitelist:Titan]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Moon-Rare-Day</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Moon very rare brown incident.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderBrown]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:1]
+            [MinCreatureDistance:140]
+            [MaxCreatureDistance:320]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:5]
+            [PlanetWhitelist:Moon]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:false]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.2</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>SEco-Creature-Moon-Rare-Night</SubtypeId>
+      </Id>
+      <Description>
+            [Modular Encounters SpawnGroup]
+            [Spider Ecology MES Creatures]
+            [Moon very rare brown/black night incident.]
+
+            [CreatureSpawn:true]
+            [CreatureIds:SpaceSpiderBrown]
+            [CreatureIds:SpaceSpiderBlack]
+            [MinCreatureCount:1]
+            [MaxCreatureCount:1]
+            [MinCreatureDistance:140]
+            [MaxCreatureDistance:320]
+            [MinDistFromOtherCreaturesInGroup:8]
+            [CreatureChance:7]
+            [PlanetWhitelist:Moon]
+            [MaxSpawnFromPlanetSurface:15]
+            [UseDayOrNightOnly:true]
+            [SpawnOnlyAtNight:true]
+            [RequireAnyMods:2371761016]
+</Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.3</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="MES-CreaturePrefabDummy">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>
